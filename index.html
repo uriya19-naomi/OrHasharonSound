@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Or Hasharon Sound Checklist</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="Uriya ST logo" class="logo">
+    <h1>Sound Setup Checklist</h1>
+    <p class="subtitle">Or Hasharon Community Assembly</p>
+
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox" data-id="xlr"> XLR Cable</label></li>
+      <li><label><input type="checkbox" data-id="pl"> PL Cable</label></li>
+      <li><label><input type="checkbox" data-id="stand1"> Stand 1</label></li>
+      <li><label><input type="checkbox" data-id="stand2"> Stand 2</label></li>
+    </ul>
+
+    <div class="progress">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <p class="status" id="status"></p>
+
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
